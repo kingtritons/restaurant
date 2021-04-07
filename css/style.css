@@ -1,13 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
-
+/*$yale-blue: #144585ff; //Blue
+$light-french-beige: #d1ae68ff; //Yellow
+$eerie-black: #141414ff; //Black
+$light-cyan: #cffcffff; //Light Blue
+$cultured: #f5f5f5ff; // That Whiteish Text
+*/
 html, body{
 height: 100%;
 width: 100%;
 font-family:'Poppins',sans-serif;
-color: #222;
+color: #141414ff;
 }
 .navbar{
   padding: .8rem;
+  background-color:#141414ff
+}
+.navbar img{
+  width:8rem;
 }
 .navbar-nav li{
 padding-right: 20px
@@ -15,25 +24,51 @@ padding-right: 20px
 .nav-link{
   font-size: 1.1em !important;
 }
+.navbar-toggler-icon{
+  color:#f5f5f5ff; /*Not working*/
+}
 /* End of Nav Bar CSS Start of Image Slider CSS*/
+.homeSplash{
+  background-repeat: no-repeat;
+  position: absolute;
+  top:0;
+  background-size: cover;
+  height: 100vh;
+  width:100%;
+}
 .carousel-inner img{
   width: 100%;
   height:100%;
 }
+.wrapper{
+  width:100%;
+  height:100%;
+  background-color:#696767;
+  opacity:0.6;
+  color:black;
+}
+.wrapper .carousel-caption{
+  opacity: 1!important;
+  color:white!important;
+}
+.ignoreMe{
+  height:90vh;
+  width:100%;
+}
 .carousel-caption{
-  position:absolute;
   top: 50%;
-  transform: translateY(-50%);
+  color:white;
+  position: absolute;
 }
 .carousel-caption h1{
   font-size: 500%;
   text-transform: uppercase;
-  text-shadow: 1px 1px 15px #000;
+  text-shadow: 1px 1px 15px #141414ff;
 }
 .carousel-caption h3{
   font-size:200%;/*2 em or 2 rem*/
   font-weight: 500;
-  text-shadow: 1px 1px 10px #000;
+  text-shadow: 1px 1px 10px #141414ff;
   padding-bottom: 1rem;
 }
 /*Button*/
@@ -122,7 +157,14 @@ footer{
   color:#d5d5d5;
   padding-top:2rem;
 }
+footer img{
+  width:19rem;
+}
 
+.copyright{
+  background-color:#141414ff;
+  width:100%;
+}
 hr.light{
   border-top:1px solid #d5d5d5;
   width:75%;
