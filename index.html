@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>King Triton's Seafood Palace</title>
+	<title>Complete Bootstrap 4 Website Layout</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -21,7 +21,7 @@
 	<div class="container-fluid">
 		<a class="navbar-brand" href="#"><img src="img/logo.png"></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-			<span class="navbar-toggler-icon">King Triton</span>
+			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarResponsive">
 			<ul class="navbar-nav ml-auto">
@@ -44,20 +44,47 @@
 		</div>
 	</div>
 </nav>
+<!-- Hero Section -->
+<div class="container-fluid hero-section">
+	<div class="centered text-center">
+		<h1>Dish Of the Week</h1>
+		<p>Braised Shrimp</p>
+		<button type="button" class="btn btn-outline-light btn-lg">ORDER NOW</button>
+	</div>
+    <img class="hero-image" src="./img/shrimp dinner.jpg" alt="Image of a seaside restaurant interior">
+	
+</div>
 
-<!--- Splash Screen -->
-<div id="slides" class="carousel slide" data-ride="carousel">
-	<div class="homeSplash" style="background-image: url('img/shrimp dinner.jpg');">
-			<div class="wrapper">
-				<div class="carousel-caption">
-					<h3>DISH OF THE WEEK</h3>
-					<button type="button" class="btn btn-outline-light btn-lg">ORDER NOW</button>
+<!--- Two Column Section -->
+<div class="container-fluid padding menu-section">
+	<div class="row padding">
+		<div class="col-lg-6">
+			<div class="custom-card-special card-style">
+				<img class="card-img-top" class="menu-image" src="./img/bg-image.jpg">
+				<div class="card-body">
+					<h4>Shrimp Alfredo</h4>
+					<div class="row">
+						<p class="col-lg-6">$16.00</p>
+						<button type="button" class=" col-lg-5 btn btn-primary btn-lg">ORDER NOW</button>
+					</div>					
 				</div>
-			</div>	
+			</div>
+		</div>
+		<div class="col-lg-6">
+			<div class="custom-card-special card-style">
+				<img class="card-img-top" class="menu-image" src="./img/cover image.jpeg">
+				<div class="card-body">
+					<h4>Shrimp Kebabs</h4>
+					<div class="row">
+						<p class="col-lg-6">$16.00</p>
+						<button type="button" class=" col-lg-5 btn btn-primary btn-lg">ORDER NOW</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
 	</div>
 </div>
-<div class="ignoreMe"></div>
-
 
 <!--- Footer -->
 <footer>
@@ -88,3 +115,9 @@
 </footer>
 </body>
 </html>
+
+
+
+
+
+

@@ -39,6 +39,30 @@ color: #141414ff;
   /* min-width: 400px; */
   /* width: 400px; */
 }
+.custom-card-special{
+  background: #fff;
+  border-radius: 5px;
+  display: inline-block;
+  height: auto;
+  margin: 1rem;
+  position: relative;
+  /* overflow: hidden; */
+  /* min-width: 400px; */
+  /* width: 400px; */
+}
+
+.custom-card-special p{
+  color: black;
+}
+.custom-card-special h4{
+  font-family: 'New Tegomin';
+}
+.custom-card-special .btn{
+  background-color: #144585;
+}
+.custom-card-special .btn:hover{
+  background-color: #143157 !important;
+}
 .custom-card-staff{
   background: #fff;
   border-radius: 5px;
@@ -67,6 +91,11 @@ color: #141414ff;
   padding: 0 !important;
   margin: 0 !important;
   object-fit: cover;
+}
+
+.hero-section h1{
+  font-family: 'New Tegomin';
+  font-size: 5vw;
 }
 
 .card-title{
@@ -124,6 +153,14 @@ color: #141414ff;
   color: white;
 }
 
+.form-section .btn{
+  color: white !important;
+  background-color: #144585;
+}
+.form-section .btn:hover{
+  color: white !important;
+  background-color: #143157 !important;
+}
 .top-left {
   position: absolute;
   top: 20%;
@@ -182,6 +219,21 @@ button:focus {
   font-size: 4.5vw;
 }
 
+.centered {
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.hero-section h1,p{
+  color: white;
+}
+.navbar li{
+  color: white !important;
+  
+}
+
 /* End of Custom CSS */
 
 .navbar-nav li{
@@ -219,10 +271,7 @@ padding-right: 20px
   opacity: 1!important;
   color:white!important;
 }
-.ignoreMe{
-  height:90vh;
-  width:100%;
-}
+
 .carousel-caption{
   top: 50%;
   color:white;
@@ -325,9 +374,7 @@ footer{
   color:#d5d5d5;
   padding-top:2rem;
 }
-footer img{
-  width:19rem;
-}
+
 
 .copyright{
   background-color:#141414ff;
