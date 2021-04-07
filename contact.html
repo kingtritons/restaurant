@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>King Triton's Seafood Palace</title>
+	<title>Complete Bootstrap 4 Website Layout</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -21,12 +21,12 @@
 	<div class="container-fluid">
 		<a class="navbar-brand" href="#"><img src="img/logo.png"></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-			<span class="navbar-toggler-icon">King Triton</span>
+			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarResponsive">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item">
-					<a class="nav-link" id="activePage" href="index.html">Home</a>
+					<a class="nav-link" href="index.html">Home</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="menu.html">Menu</a>
@@ -35,7 +35,7 @@
 					<a class="nav-link" href="reservations.html">Reservations</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="contact.html">Contact</a>
+					<a class="nav-link" id="activePage" href="contact.html">Contact</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="about.html">About</a>
@@ -44,20 +44,29 @@
 		</div>
 	</div>
 </nav>
-<!--- Splash Screen -->
-<div id="slides" class="carousel slide" data-ride="carousel">
-	<div class="homeSplash" style="background-image: url('img/shrimp dinner.jpg');">
-			<div class="wrapper">
-				<div class="carousel-caption">
-					<h3>DISH OF THE WEEK</h3>
-					<button type="button" class="btn btn-outline-light btn-lg">ORDER NOW</button>
-				</div>
-			</div>	
-	</div>
+<!-- Hero Section -->
+<div class="container-fluid hero-section">
+    <img class="hero-image" src="./img/contact.jpg" alt="Image of a seaside restaurant interior">
 </div>
-<div class="ignoreMe"></div>
-<pre>Content</pre>
-
+<!-- Form Section -->
+<div class="container-fluid form-section">
+    <h1>Send Us A Message</h1>
+    <div class="row">
+        <div class="col-8">
+            <form>
+                <input type="text" id="fname" name="fname"> <br>
+                <input type="text" id="lname" name="lname">
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+              </form>
+        </div>
+        <div class="col-4">
+            <p>(246)439-9000</p>
+            <p>info@triton.com</p>
+            <p>Hastings Main Road Ch Ch</p>
+        </div>
+    </div>
+    
+</div>
 <!--- Footer -->
 <footer>
 	<div class="container-fluid padding">

@@ -18,6 +18,81 @@ color: #141414ff;
 .navbar img{
   width:8rem;
 }
+/* Custom CSS */
+
+.navbar-brand img {
+  height: 50px;
+}
+
+.footer-image{
+  height: 100px;
+}
+
+.custom-card{
+  background: #fff;
+  border-radius: 5px;
+  display: inline-block;
+  height: 250px;
+  margin: 1rem;
+  position: relative;
+  overflow: hidden;
+  /* min-width: 400px; */
+  /* width: 400px; */
+}
+
+.card-style {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card-style:hover {
+  box-shadow: 0 7px 7px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.custom-card img{
+  filter: brightness(50%);
+}
+
+.card-title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: 'New Tegomin';
+  font-size: 24pt;
+}
+
+.page-header{
+  padding: 32px;
+  font-family: 'New Tegomin';
+}
+
+.hero-section{
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100%;
+}
+
+.hero-image{
+  width: inherit;
+  object-fit: cover;
+}
+.hero-section img{
+  filter: brightness(20%);
+ 
+}
+.form-section{
+  background-color: #080808;
+  width: 100%;
+  height: 300px;
+}
+.form-section p{
+  color: white;
+}
+
+/* End of Custom CSS */
+
 .navbar-nav li{
 padding-right: 20px
 }
@@ -26,6 +101,9 @@ padding-right: 20px
 }
 .navbar-toggler-icon{
   color:#f5f5f5ff; /*Not working*/
+}
+#activePage{
+  color:#cffcffff;
 }
 /* End of Nav Bar CSS Start of Image Slider CSS*/
 .homeSplash{
@@ -73,22 +151,15 @@ padding-right: 20px
 }
 /*Button*/
 .btn-primary{
-  background-color: #6648b1;
-  border: 1px solid #6648b1;
+  background-color: #144585ff;
+  border: 1px solid #144585ff;
 }
 .btn-primary:hover{
-  background-color: #563d7c;
-  border: 1px solid #563d7c;
+  background-color: #141414ff;
+  border: 1px solid #141414ff;
 }
 /* End of Image slider CSS || Start of Jumbotron*/
-.jumbotron{
-  padding: 1rem;
-  border-radius: 0;
-}
-/* End of Jumbotron CSS */
-.padding{               /*padding*/
-  padding-bottom: 2rem;
-}
+
 /* Start of Welcome Section*/
 .welcome{
   width:75%;
@@ -101,59 +172,10 @@ padding-right: 20px
   margin-top: .3rem;
   margin-bottom: 1rem;
 }
-/*End of Welcome Sec || Start of 3 Colum */
-.fa-code{
-  color: #e54d26;
-}
-.fa-bold{
-  color: #563d7c;
-}
-.fa-css3{
-  color: #2163af;
-}
-.fa-code,.fa-bold,.fa-css3{
-  font-size: 4em;
-  margin:1rem;
-}
-/*End of Welcome || Start of Gif Section */
-.fun{
-  width:100%;
-  margin-bottom:2rem;
-}
-.gif{
-  max-width:100%;
-}
-/*End of Gif Section || Start of Social Media Connect */
-.social a{
-  font-size:4.5em;
-  padding:3rem;
-}
-.fa-facebook{
-  color:#3b5998;
-}
-.fa-twitter{
-  color: #00aced;
-}
-.fa-google-plus-g{
-  color:#dd4b39;
-}
-.fa-instagram{
-  color:#517fa4;
-}
-.fa-youtube{
-  color:#bb0000
-}
-.fa-facebook:hover,
-.fa-twitter:hover,
-.fa-google-plus-g:hover,
-.fa-instagram:hover,
-.fa-youtube:hover{
-  color:#d5d5d5;
-}
 
 /*    Footer Stuff   */
 footer{
-  background-color: #3f3f3f;
+  background-color: #141414;
   color:#d5d5d5;
   padding-top:2rem;
 }
@@ -180,6 +202,25 @@ hr.light-100{
   margin-top: .8rem;
   margin-bottom:1rem;
 }
+/* Reservations Page */
+.rOptions{
+  width:30%;
+}
+.optBox{
+  margin-left:6rem;
+  height:30px;
+  width:100px;
+  background-color:#141414;
+  opacity:0.9;
+}
+.optbox img{
+  margin:0;
+  padding:0;
+  position:absolute;
+  float:right;
+}/* WHAT THE FUCK BRO*/
+
+
 /*---Media Queries --*/
 @media (max-width: 992px) {
   .social a{
