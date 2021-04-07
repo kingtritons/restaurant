@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>King Triton's Seafood Palace</title>
+	<title>Complete Bootstrap 4 Website Layout</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -21,7 +21,7 @@
 	<div class="container-fluid">
 		<a class="navbar-brand" href="#"><img src="img/logo.png"></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-			<span class="navbar-toggler-icon">King Triton</span>
+			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarResponsive">
 			<ul class="navbar-nav ml-auto">
@@ -45,19 +45,83 @@
 	</div>
 </nav>
 
-<!--- Splash Screen -->
-<div id="slides" class="carousel slide" data-ride="carousel">
-	<div class="homeSplash" style="background-image: url('img/shrimp dinner.jpg');">
-			<div class="wrapper">
-				<div class="carousel-caption">
-					<h3>DISH OF THE WEEK</h3>
-					<button type="button" class="btn btn-outline-light btn-lg">ORDER NOW</button>
+<h1 class="page-header">Menu</h1>
+
+<!--- Two Column Section -->
+<div class="container-fluid padding">
+	<div class="row padding">
+		<div class="col-lg-6">
+			<div class="custom-card card-style">
+				<img class="card-img-top" src="./img/app.jpg">
+				<div class="card-body">
+					<h4 class="card-title">Appetizers</h4>					
 				</div>
-			</div>	
+			</div>
+		</div>
+		<div class="col-lg-6">
+			<div class="custom-card card-style">
+				<img class="card-img-top" src="./img/main.jpg">
+				<div class="card-body">
+					<h4 class="card-title">Main Courses</h4>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-6">
+			<div class="custom-card card-style">
+				<img class="card-img-top" src="./img/dessert.jpg">
+				<div class="card-body">
+					<h4 class="card-title">Desserts</h4>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-6">
+			<div class="custom-card card-style">
+				<img class="card-img-top" src="./img/cocktails.jpg">
+				<div class="card-body">
+					<h4 class="card-title">Cocktails</h4>
+				</div>
+			</div>
+		</div>
 	</div>
 </div>
-<div class="ignoreMe"></div>
 
+<!--- Cards -->
+<div class="container-fluid padding">
+	<div class="row padding">
+		<div class="col-md-4">
+			<div class="custom-card card-style">
+				<img class="card-img-top" src="img/team1.png">
+				<div class="card-body">
+					<h4 class="card-title">John Doe</h4>
+					<p class="card-text">John is an Internet entreprenuer with almost 20 years of experience.</p>
+					<a href="#" class="btn btn-outline-secondary">See Profile</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-4">
+			<div class="custom-card card-style">
+				<img class="card-img-top" src="img/team2.png">
+				<div class="card-body">
+					<h4 class="card-title">Mary Jo</h4>
+					<p class="card-text">Mary is a designer with almost 10 years of digital design experience</p>
+					<a href="#" class="btn btn-outline-secondary">See Profile</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-4">
+			<div class="custom-card card-style">
+				<img class="card-img-top" src="img/team3.png">
+				<div class="card-body">
+					<h4 class="card-title">Phil Ho</h4>
+					<p class="card-text">Phil is a developer with over 5 years of web development experience.</p>
+					<a href="#" class="btn btn-outline-secondary">See Profile</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
 <!--- Footer -->
 <footer>
@@ -88,3 +152,9 @@
 </footer>
 </body>
 </html>
+
+
+
+
+
+
