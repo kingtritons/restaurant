@@ -204,20 +204,18 @@ hr.light-100{
 }
 /* Reservations Page */
 .rOptions{
-  width:30%;
+  width:15%;
+  margin-left:10%;
+  
 }
 .optBox{
-  margin-left:6rem;
-  height:30px;
-  width:100px;
+  height:100%;
+  width:100%;
   background-color:#141414;
   opacity:0.9;
 }
-.optbox img{
-  margin:0;
-  padding:0;
-  position:absolute;
-  float:right;
+.selector{
+  margin-left:90px;
 }/* WHAT THE FUCK BRO*/
 
 
