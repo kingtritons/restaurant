@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Complete Bootstrap 4 Website Layout</title>
+	<title>King Triton's Seafood Palace</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -46,26 +46,52 @@
 </nav>
 <!-- Hero Section -->
 <div class="container-fluid hero-section">
+	<div class="top-left">
+		<h1>Contact Us</h1>
+		<p>We appreciate your feedback! How was your experience with us? Please leave any queries or comments below.</p>
+	</div>
     <img class="hero-image" src="./img/contact.jpg" alt="Image of a seaside restaurant interior">
+	
 </div>
 <!-- Form Section -->
 <div class="container-fluid form-section">
     <h1>Send Us A Message</h1>
     <div class="row">
-        <div class="col-8">
+        <div class="col-lg-9">
             <form>
-                <input type="text" id="fname" name="fname"> <br>
-                <input type="text" id="lname" name="lname">
-                <textarea name="" id="" cols="30" rows="10"></textarea>
+				<div class="row">
+					<div class="column">
+						<div class="col-md-12 col-lg-12 col-sm-12">
+							<input type="text" aria-placeholder="Name" placeholder="Name">
+						</div>
+						<div class="col-md-12 col-lg-12 col-sm-12">
+							<input type="text" aria-placeholder="Email" placeholder="Email">
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6">
+						<textarea class="area" name="" id="" cols="40" rows="6" aria-placeholder="Message" placeholder="Message"></textarea>
+					</div>
+
+				</div>
+				<div class="col-md-8">
+					<a type="button" class=" col-lg-5 btn btn-primary btn-lg">Send</a>
+				</div>
+                
               </form>
         </div>
-        <div class="col-4">
+        <div class="col-lg-3">
             <p>(246)439-9000</p>
             <p>info@triton.com</p>
             <p>Hastings Main Road Ch Ch</p>
         </div>
     </div>
     
+</div>
+
+<!-- Map Section -->
+<div class="container-fluid map-section">
+    <img class="map-image" src="./img/map.jpg" alt="Image of map">
+	
 </div>
 <!--- Footer -->
 <footer>
