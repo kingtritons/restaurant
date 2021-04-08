@@ -17,14 +17,11 @@
 </head>
 <body>
 <!-- Navigation -->
-<nav class="navbar navbar-expand-md header-bg sticky-top">
+<nav class="navbar navbar-expand-md navbar-dark header-bg sticky-top">
 	<div class="container-fluid">
 		<a class="navbar-brand" href="#"><img src="./img/Logo.png"></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-			<!-- <span class="navbar-toggler-icon"></span> -->
-			<span class="material-icons">
-				<img src="img/2x/menu.png" height="90px" width="6rem">
-			</span>
+			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarResponsive">
 			<ul class="navbar-nav ml-auto">
@@ -32,10 +29,10 @@
 					<a class="nav-link" href="index.html">Home</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="menu.html">Menu</a>
+					<a class="nav-link" id="activePage" href="menu.html">Menu</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" id="activePage" href="reservations.html">Reservations</a>
+					<a class="nav-link" href="reservations.html">Reservations</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="contact.html">Contact</a>
@@ -48,7 +45,55 @@
 	</div>
 </nav>
 
+<h1 class="page-header">Menu</h1>
 
+<!--- Two Column Section -->
+<div class="container-fluid padding menu-section">
+	<div class="row padding">
+		<div class="col-lg-6">
+            <div id="card-display"></div>
+            
+		</div>
+	</div>
+</div>
+
+<!--- Cards -->
+<div class="container-fluid padding">
+	<div class="row padding">
+		<div class="col-md-4">
+			<div class="custom-card card-style">
+				<img class="card-img-top" class="menu-image" src="img/team1.png">
+				<div class="card-body">
+					<h4 class="card-title">John Doe</h4>
+					<p class="card-text">John is an Internet entreprenuer with almost 20 years of experience.</p>
+					<a href="#" class="btn btn-outline-secondary">See Profile</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-4">
+			<div class="custom-card card-style">
+				<img class="card-img-top" class="menu-image" src="img/team2.png">
+				<div class="card-body">
+					<h4 class="card-title">Mary Jo</h4>
+					<p class="card-text">Mary is a designer with almost 10 years of digital design experience</p>
+					<a href="#" class="btn btn-outline-secondary">See Profile</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-4">
+			<div class="custom-card card-style">
+				<img class="card-img-top" class="menu-image" src="img/team3.png">
+				<div class="card-body">
+					<h4 class="card-title">Phil Ho</h4>
+					<p class="card-text">Phil is a developer with over 5 years of web development experience.</p>
+					<a href="#" class="btn btn-outline-secondary">See Profile</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
 <!--- Footer -->
 <footer>
@@ -77,5 +122,11 @@
 		</div>
 	</div>
 </footer>
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+    <!-- Load our React component. -->
+    <script type="text/babel" src="./js/data.js"></script>
 </body>
 </html>
