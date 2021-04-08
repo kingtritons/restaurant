@@ -45,10 +45,14 @@ color: #141414ff;
   width: 100%;
 }
 
-#activePage::before{
+#activePage{
   
   color: #d1ae68;
   
+}
+
+.res-section p{
+  font-size: 18pt !important;
 }
 
 .team-section p{
@@ -63,6 +67,10 @@ color: #141414ff;
 
 .footer-image{
   height: 100px;
+}
+.material-icons {
+  color: white;
+  font-size: 30pt;
 }
 
 .custom-card{
@@ -104,12 +112,15 @@ color: #141414ff;
   background: #fff;
   border-radius: 5px;
   display: inline-block;
-  height: 250px;
-  margin: 1rem;
-  position: relative;
+  max-width: 300px;
+  margin: 16px;
   overflow: hidden;
   /* min-width: 400px; */
   width: 90vw;
+  text-align: center;
+}
+.custom-card-staff h1{
+  font-size: 20pt;
 }
 .card-style {
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -118,6 +129,9 @@ color: #141414ff;
 
 .card-style:hover {
   box-shadow: 0 7px 7px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.custom-padding{
+  padding: 32px !important;
 }
 
 .menu-section img{
@@ -275,6 +289,44 @@ button:focus {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.centered-custom {
+  z-index: 1;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.res-section::before{
+  content: "";
+  background-image: url(https://cdn.pixabay.com/photo/2015/03/14/01/40/restaurant-672551_960_720.jpg);
+
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  filter: brightness(20%);
+}
+.res-section{
+  min-height: 500px;
+  width: 100%;
+  display: flex;
+  place-items: flex-end;
+  /* position: relative;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: flex-end; */
+}
+.res-section input{
+  margin-left: 32px;
+  margin-right: 32px;
+
+}
+
 .hero-section h1,p{
   color: white;
 }
