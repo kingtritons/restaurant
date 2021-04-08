@@ -101,6 +101,7 @@ color: #141414ff;
   /* width: 400px; */
 }
 
+
 .custom-card-special p{
   color: black;
 }
@@ -127,8 +128,15 @@ color: #141414ff;
 
 .custom-card-staff h1{
   font-size: 20pt;
+  font-family: 'New Tegomin';
 }
 
+.custom-card-staff .btn{
+  color: white !important;
+}
+.custom-card-home .btn{
+  color: white !important;
+}
 .custom-card-home{
   
   border-radius: 5px;
@@ -142,6 +150,7 @@ color: #141414ff;
 }
 .custom-card-home h1{
   font-size: 20pt;
+  font-family: 'New Tegomin';
 }
 .custom-card-home p{
   color: #080808 !important;
