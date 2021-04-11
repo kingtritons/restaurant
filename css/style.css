@@ -105,6 +105,15 @@ color: #141414ff;
   height: 100%;
 }
 
+.custom-card-home img{
+  width: 100%!important;
+  height: 200px!important;
+  object-fit: cover;
+}
+div h1{
+  font-family: 'New Tegomin';
+}
+
 .custom-card-special p{
   color: black;
 }
